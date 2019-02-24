@@ -31,7 +31,7 @@ public class fitnessTesting {
 		driver.findElement(By.id("pswrd")).clear();
 		driver.findElement(By.id("pswrd")).sendKeys("123");
 		driver.findElement(By.id("button")).click();
-	        driver.findElement(By.id("fage")).sendKeys("24")
+	        driver.findElement(By.id("fage")).sendKeys("24");
 		driver.findElement(By.id("fhght")).sendKeys("157");
 		driver.findElement(By.id("fwght")).sendKeys("54");
 		
